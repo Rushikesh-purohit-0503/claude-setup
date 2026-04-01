@@ -1,0 +1,5 @@
+---
+description: Run full spec workflow: analyst brief → PM PRD → architect technical design
+alwaysApply: false
+---
+@.claude/commands/spec.md

@@ -1,0 +1,5 @@
+---
+description: Achieve aggressive v3 performance targets: 2.49x-7.47x Flash Attention speedup, 150x-12,500x search 
+alwaysApply: false
+---
+@.claude/skills/ruflo/v3-performance-optimization/SKILL.md

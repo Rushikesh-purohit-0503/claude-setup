@@ -1,0 +1,55 @@
+{
+  "defaults": ["claude-flow"],
+  "servers": {
+    "claude-flow": {
+      "description": "Claude Flow multi-agent orchestration (Ruflo v3)",
+      "command": "npx",
+      "args": ["-y", "ruflo@latest", "mcp", "start"],
+      "env": {},
+      "envDocs": {}
+    },
+    "mysql": {
+      "description": "MySQL database access",
+      "command": "npx",
+      "args": ["-y", "@benborla29/mcp-server-mysql"],
+      "env": {
+        "MYSQL_HOST": "YOUR_MYSQL_HOST",
+        "MYSQL_PORT": "3306",
+        "MYSQL_USER": "YOUR_MYSQL_USER",
+        "MYSQL_PASS": "YOUR_MYSQL_PASS",
+        "MYSQL_DB": "YOUR_MYSQL_DB"
+      },
+      "envDocs": {
+        "MYSQL_HOST": "Dev DB host (e.g. localhost or shared dev IP)",
+        "MYSQL_USER": "MySQL username",
+        "MYSQL_PASS": "MySQL password",
+        "MYSQL_DB": "Default database name"
+      }
+    },
+    "mongodb": {
+      "description": "MongoDB database access (official MongoDB MCP)",
+      "command": "npx",
+      "args": ["-y", "mongodb-mcp-server"],
+      "env": {
+        "MDB_MCP_CONNECTION_STRING": "YOUR_MONGO_URI"
+      },
+      "envDocs": {
+        "MDB_MCP_CONNECTION_STRING": "Full MongoDB URI e.g. mongodb://user:pass@host:27017/db"
+      }
+    },
+    "aws-mcp": {
+      "description": "AWS MCP — SigV4-authenticated proxy to AWS managed MCP service (recommended over aws.api)",
+      "command": "uvx",
+      "args": [
+        "mcp-proxy-for-aws@latest",
+        "https://aws-mcp.us-east-1.api.aws/mcp",
+        "--metadata",
+        "AWS_REGION=ap-south-1"
+      ],
+      "env": {},
+      "envDocs": {
+        "note": "Uses AWS CLI default credentials (~/.aws/credentials). Ensure the aws CLI is configured before using."
+      }
+    }
+  }
+}

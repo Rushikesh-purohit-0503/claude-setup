@@ -1,0 +1,5 @@
+---
+description: Optimize AgentDB performance with quantization (4-32x memory reduction), HNSW indexing (150x faster 
+alwaysApply: false
+---
+@.claude/skills/ruflo/agentdb-optimization/SKILL.md

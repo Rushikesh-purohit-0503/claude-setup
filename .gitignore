@@ -1,0 +1,7 @@
+# Generated / runtime files
+.claude-flow/data/
+.claude-flow/logs/
+.claude-flow/sessions/
+.claude-flow/metrics/
+.claude-flow/learning/
+*.local.json

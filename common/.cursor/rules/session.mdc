@@ -1,0 +1,5 @@
+---
+description: Session manager - list and resume AI sessions from ai/local/memory/
+alwaysApply: false
+---
+@.claude/commands/session.md

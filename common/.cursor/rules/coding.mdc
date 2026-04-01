@@ -1,0 +1,5 @@
+---
+description: Coding and implementation rules - always require explicit package/folder before working on code
+alwaysApply: true
+---
+@.claude/rules/coding.md

@@ -1,0 +1,5 @@
+---
+description: Manage MCP servers — enable, disable, sync, list
+alwaysApply: false
+---
+@.claude/commands/mcp.md

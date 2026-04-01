@@ -1,0 +1,5 @@
+---
+description: "Generate precise coding prompts — clarifies package & scope first, saves ready-to-use prompts to ai/local/task/"
+alwaysApply: false
+---
+@.claude/skills/lyra/SKILL.md

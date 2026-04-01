@@ -1,0 +1,5 @@
+---
+description: Discover personas matching a requirement (/persona find) or add a new persona from the library (/persona add)
+alwaysApply: false
+---
+@.claude/commands/persona.md

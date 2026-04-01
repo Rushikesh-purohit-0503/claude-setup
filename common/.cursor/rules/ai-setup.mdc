@@ -1,0 +1,5 @@
+---
+description: Setup all AI tooling for this project - clone personas, create symlinks, generate Cursor rules (idempotent)
+alwaysApply: false
+---
+@.claude/commands/ai-setup.md

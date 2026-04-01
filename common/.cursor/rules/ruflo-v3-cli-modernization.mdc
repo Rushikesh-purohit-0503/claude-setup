@@ -1,0 +1,5 @@
+---
+description: CLI modernization and hooks system enhancement for claude-flow v3. Implements interactive prompts, c
+alwaysApply: false
+---
+@.claude/skills/ruflo/v3-cli-modernization/SKILL.md

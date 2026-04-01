@@ -1,0 +1,5 @@
+---
+description: Create new Claude Code Skills with proper YAML frontmatter, progressive disclosure structure, and co
+alwaysApply: false
+---
+@.claude/skills/ruflo/skill-builder/SKILL.md

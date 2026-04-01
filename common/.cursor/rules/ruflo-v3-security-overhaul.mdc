@@ -1,0 +1,5 @@
+---
+description: Complete security architecture overhaul for claude-flow v3. Addresses critical CVEs (CVE-1, CVE-2, C
+alwaysApply: false
+---
+@.claude/skills/ruflo/v3-security-overhaul/SKILL.md

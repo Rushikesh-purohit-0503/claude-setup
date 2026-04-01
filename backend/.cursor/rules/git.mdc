@@ -1,0 +1,5 @@
+---
+description: Git utilities - create branches from rc-3.0 with worktree setup
+alwaysApply: false
+---
+@.claude/commands/git.md

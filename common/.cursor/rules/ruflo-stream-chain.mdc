@@ -1,0 +1,5 @@
+---
+description: Stream-JSON chaining for multi-agent pipelines, data transformation, and sequential workflows
+alwaysApply: false
+---
+@.claude/skills/ruflo/stream-chain/SKILL.md

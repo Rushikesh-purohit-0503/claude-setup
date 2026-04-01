@@ -1,0 +1,5 @@
+---
+description: Domain-Driven Design architecture for claude-flow v3. Implements modular, bounded context architectu
+alwaysApply: false
+---
+@.claude/skills/ruflo/v3-ddd-architecture/SKILL.md

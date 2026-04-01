@@ -1,0 +1,5 @@
+---
+description: Index of project documentation in docs/ — operational guides, architecture, RCAs. Use when user asks about docs, setup guides, sync, autopay, pipelines, or RCAs.
+alwaysApply: false
+---
+@ai/index/docs-index.md

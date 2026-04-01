@@ -1,0 +1,5 @@
+---
+description: Core module implementation for claude-flow v3. Implements DDD domains, clean architecture patterns, 
+alwaysApply: false
+---
+@.claude/skills/ruflo/v3-core-implementation/SKILL.md

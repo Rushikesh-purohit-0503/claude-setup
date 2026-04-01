@@ -1,0 +1,5 @@
+---
+description: How to write shared AI commands for Claude Code and Cursor in this project
+alwaysApply: true
+---
+@.claude/rules/commander.md

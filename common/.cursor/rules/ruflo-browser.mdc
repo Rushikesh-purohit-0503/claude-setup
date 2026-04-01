@@ -1,0 +1,5 @@
+---
+description: Web browser automation with AI-optimized snapshots for claude-flow agents
+alwaysApply: false
+---
+@.claude/skills/ruflo/browser/SKILL.md

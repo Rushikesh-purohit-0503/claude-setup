@@ -1,0 +1,5 @@
+---
+description: Implement ReasoningBank adaptive learning with AgentDB's 150x faster vector database. Includes traje
+alwaysApply: false
+---
+@.claude/skills/ruflo/reasoningbank-agentdb/SKILL.md

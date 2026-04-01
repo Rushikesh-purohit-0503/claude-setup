@@ -1,0 +1,5 @@
+---
+description: Implement persistent memory patterns for AI agents using AgentDB. Includes session memory, long-term
+alwaysApply: false
+---
+@.claude/skills/ruflo/agentdb-memory-patterns/SKILL.md
