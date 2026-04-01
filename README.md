@@ -114,7 +114,7 @@ The `/git --branch` command handles everything after creating the worktree:
 
 ```bash
 /git --branch feature my-work
-# → creates worktree at /Users/vyapar/code/backend/monorepo/feature/<user>/my-work
+# → creates worktree at /Users/me/code/monorepo/feature/<user>/my-work
 # → symlinks _ai-setup from the main worktree
 # → runs bootstrap.sh --team backend automatically
 ```

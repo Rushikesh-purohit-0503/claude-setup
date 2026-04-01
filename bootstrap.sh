@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Vyapar AI Setup Bootstrap
+# Claude Setup Bootstrap
 #
 # Usage:
 #   bash _ai-setup/bootstrap.sh                         # common only (repo-local)
@@ -131,7 +131,7 @@ sync_dir() {
 TEAM_LABEL="${TEAM:-none}"
 
 echo ""
-echo "Vyapar AI Setup Bootstrap"
+echo "Claude Setup Bootstrap"
 echo "  Submodule  : $SUBMODULE"
 
 # ══════════════════════════════════════════════════════════════════════════════

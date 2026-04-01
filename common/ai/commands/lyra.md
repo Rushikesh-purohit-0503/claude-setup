@@ -40,7 +40,7 @@ Then continue to Phase 1.
 Acknowledge the topic from $ARGUMENTS (if any), then ask ALL questions below in one message. Wait for all answers before Phase 2.
 
 **Group A — Scope & Goal**
-1. Which package or folder will this touch? (e.g. `@vyapar/unnati`, `packages/sync_api_app`)
+1. Which package or folder will this touch? (e.g. `src/components`, `packages/my-package`)
 2. What is the exact outcome? (e.g. "add endpoint", "fix bug in X", "refactor Y")
 3. New feature, bug fix, refactor, or other?
 

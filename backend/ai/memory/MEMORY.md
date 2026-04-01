@@ -1,4 +1,4 @@
-# Claude Persistent Memory — Vyapar Backend
+# Claude Persistent Memory — Backend
 
 > Loaded on every startup. Keep this concise (under 200 lines).
 
@@ -46,8 +46,8 @@ At the **very start of every conversation**, before doing anything else:
 - **~120 packages** in `packages/` — check `ai/index/codebase-index.md` for full list
 - **Dependency tiers**: Foundation → Core Utils → Database → Service → Business → Apps
   - Never add a higher-tier package as a dependency of a lower-tier one
-- **Credential pattern**: Always use `@vyapar/credentials_manager` (AWS SSM) — never hardcode secrets
-- **Logger pattern**: Always use `@vyapar/logger`, never `console.log` in production code
+- **Credential pattern**: Use a credentials manager (AWS SSM or equivalent) — never hardcode secrets
+- **Logger pattern**: Use a structured logger, never `console.log` in production code
 
 ## Before Coding
 

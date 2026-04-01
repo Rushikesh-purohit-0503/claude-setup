@@ -33,7 +33,7 @@ Arguments:
 
   --help               Show this message.
 
-Repo cloned: git@gitlab.com:shubhamfzd/vyapar-backend-monorepo.git
+Repo cloned: https://github.com/Rushikesh-purohit-0503/claude-setup.git
 
 Examples:
   /ai-setup                                     # install BMAD + Ruflo tooling
@@ -99,7 +99,7 @@ echo "Target: $DEST"
 echo ""
 
 # 1. Remote URL
-REMOTE_URL="git@gitlab.com:shubhamfzd/vyapar-backend-monorepo.git"
+REMOTE_URL="https://github.com/Rushikesh-purohit-0503/claude-setup.git"
 echo "$OK Remote: $REMOTE_URL"
 
 # 2. Clone bare repo (skip if already present)

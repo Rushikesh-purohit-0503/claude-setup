@@ -6,14 +6,14 @@ Arguments: $ARGUMENTS
 
 ---
 
-## --profile <name>  (also: --readonly, --default, --vyapar, --zaayka)
+## --profile <name>  (also: --readonly, --default, --custom, --zaayka)
 
 Switch `AWS_PROFILE` for all `aws.*` MCP servers by updating `~/.zshenv`.
 
 Shorthand aliases map to profiles:
 - `--readonly`  → profile `readonly`
 - `--default`   → profile `default`
-- `--vyapar`    → profile `vyapar`
+- `--custom`    → profile `custom`
 - `--zaayka`    → profile `zaayka`
 
 Steps:
@@ -21,7 +21,7 @@ Steps:
    - If `--profile <name>` → use `<name>`
    - If `--readonly`       → use `readonly`
    - If `--default`        → use `default`
-   - If `--vyapar`         → use `vyapar`
+   - If `--custom`         → use `custom`
    - If `--zaayka`         → use `zaayka`
 2. Read `~/.zshenv`
 3. Find the line `export AWS_MCP_PROFILE=...`:
